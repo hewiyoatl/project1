@@ -1,0 +1,20 @@
+
+Project Reflection Answers
+
+1. What dataset did you use?
+I used the Amazon Reviews 2023 All Beauty dataset, including review data and product metadata.
+
+2. What cleaning steps did you perform?
+I selected product title, average rating, and price columns. I removed products without titles, products below the rating threshold, and products without valid prices.
+
+3. What rating threshold did you use?
+I used an initial threshold of 4.5 for top products and then narrowed the results further using a cutoff threshold of 4.7.
+
+4. What did you learn from the price histogram?
+The histogram shows how prices are distributed among highly rated products. Most highly rated products in this sample are clustered in a lower-to-mid price range, with fewer products at higher prices.
+
+5. What did you learn from the scatterplot?
+The scatterplot compares product price with average rating. It helps show whether higher-priced products also tend to have higher ratings in this sample.
+
+6. What files did you create for the project?
+I created the completed Jupyter Notebook, top_products.csv, top_products.parquet, and user_inputs.txt.
